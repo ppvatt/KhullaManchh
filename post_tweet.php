@@ -33,7 +33,7 @@ function post_tweet($tweet_text) {
 ?>
 <html>
 <body>
-  <form action="post_tweet.php" method="post">
+  <form action="post_tweet.php" method="post" accept-charset="ISO-8859-1">
   <input type="tweet" name="tweet_text" />
   <input type="Submit" Name="Tweet!" VALUE = "Tweet">
   </form>
